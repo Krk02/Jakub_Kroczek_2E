@@ -100,6 +100,10 @@ a:hover {
   text-transform: uppercase;
   width: auto;
   margin-left: 25px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 20%;
+          flex: 0 0 20%;
+  max-width: 20%;
 }
 
 .naglowek {
@@ -118,10 +122,20 @@ a:hover {
   padding: 0;
 }
 
+.images {
+  width: 100%;
+}
+
 .pasek {
   width: 100%;
   height: 4px;
   background: -webkit-gradient(linear, left top, right top, from(black), color-stop(50%, #00b7ff), to(black));
   background: linear-gradient(90deg, black 0%, #00b7ff 50%, black 100%);
+}
+
+.sekcja1 {
+  background-color: #0f3c5a;
+  padding: 20px 20px;
+  background: url(/images/bg-adbox.jpg) center, no-repeat, #0f3c5a;
 }
 /*# sourceMappingURL=style.css.map */
