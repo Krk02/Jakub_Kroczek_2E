@@ -6,3 +6,8 @@ $szary: rgb(75, 75, 75);
 $niebieski: rgb(15, 60, 90);
 $bialy-ciemny: rgb(232, 239, 244);
 
+$gradient-przycisk: linear-gradient(rgb(61, 158, 255), rgb(27, 122, 216));
+
+.przycisk{
+    background-color: $gradient-przycisk;
+}

@@ -1,4 +1,9 @@
-.body {
-  line-height: 1;
+.przycisk {
+  background-color: linear-gradient(#3d9eff, #1b7ad8);
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */
