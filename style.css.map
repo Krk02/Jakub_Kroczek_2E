@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AIAA,AAAA,KAAK,CAAA;EACD,WAAW,EAAE,CAAC;CACjB",
+    "sources": [
+        "style.scss",
+        "1-ustawienia/_ustawienia.scss",
+        "1-ustawienia/_czcionki.scss",
+        "1-ustawienia/_zmienne.scss",
+        "1-ustawienia/_body.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
