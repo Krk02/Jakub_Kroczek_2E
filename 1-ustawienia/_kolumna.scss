@@ -1,5 +1,5 @@
 .kolumna{
-    padding-left: 20px;
+    padding-left: 0px;
     padding-right: 20px;
     width: 100%;
 
@@ -21,5 +21,9 @@
     &--67{
         flex: 0 0 66.6666%;
         max-width: 66.6666%;
+    }
+
+    &--left{
+        text-align: left;
     }
 }

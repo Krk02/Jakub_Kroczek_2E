@@ -2,6 +2,7 @@ p{
     font-weight: normal;
     margin: 0;
     line-height: 1.5;
+    color: $jasny-niebieski;
 }
 
 a{
@@ -12,4 +13,31 @@ a{
         color: rgb(0, 102, 255);
         transform: 0.3s;
     }
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+    font-weight: initial;
+}
+
+h2{
+    font-size: 48px;
+    color: $szary;
+    margin: 10px 10px;
+}
+
+h3{
+    font-size: 48px;
+    color: $szary;
+    margin: 10px 10px;
+}
+
+.p--bialy{
+    font-weight: normal;
+    line-height: 1.5;
+    color: white;
+    max-width: 700px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

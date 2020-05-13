@@ -19,6 +19,7 @@ p {
   font-weight: normal;
   margin: 0;
   line-height: 1.5;
+  color: #5B8AF8;
 }
 
 a {
@@ -32,8 +33,35 @@ a:hover {
           transform: 0.3s;
 }
 
+h1 {
+  font-size: 60px;
+  color: white;
+  font-weight: initial;
+}
+
+h2 {
+  font-size: 48px;
+  color: #4b4b4b;
+  margin: 10px 10px;
+}
+
+h3 {
+  font-size: 48px;
+  color: #4b4b4b;
+  margin: 10px 10px;
+}
+
+.p--bialy {
+  font-weight: normal;
+  line-height: 1.5;
+  color: white;
+  max-width: 700px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .kolumna {
-  padding-left: 20px;
+  padding-left: 0px;
   padding-right: 20px;
   width: 100%;
 }
@@ -66,10 +94,14 @@ a:hover {
   max-width: 66.6666%;
 }
 
+.kolumna--left {
+  text-align: left;
+}
+
 .kontener {
-  width: 100%;
+  width: 85%;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 15%;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -84,6 +116,7 @@ a:hover {
           flex-direction: row;
   margin-left: 20px;
   margin-right: 20px;
+  max-width: 100%;
 }
 
 .wiersz--center {
@@ -128,14 +161,30 @@ a:hover {
 
 .pasek {
   width: 100%;
-  height: 4px;
+  height: 3px;
   background: -webkit-gradient(linear, left top, right top, from(black), color-stop(50%, #00b7ff), to(black));
   background: linear-gradient(90deg, black 0%, #00b7ff 50%, black 100%);
 }
 
 .sekcja1 {
-  background-color: #0f3c5a;
   padding: 20px 20px;
   background: url(/images/bg-adbox.jpg) center, no-repeat, #0f3c5a;
+}
+
+.pudelko1 {
+  max-width: 400px;
+  margin-left: 15%;
+  padding-left: 20px;
+}
+
+.pasek2 {
+  width: 100%;
+  background-color: #191919;
+  padding: 20px 20px;
+}
+
+.niebieski-pasek {
+  background-color: #0f3c5a;
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
