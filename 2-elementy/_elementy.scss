@@ -12,11 +12,10 @@
     border-radius: 5px;
     text-align: center;
     padding: 5px 5px;
-    transition: all 0.3s;
+    border-width: 100%;
+    
 
     &:hover{
-        color: white;
-        
-        
+        color: white;        
     }
 }

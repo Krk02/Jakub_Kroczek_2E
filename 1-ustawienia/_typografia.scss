@@ -3,6 +3,10 @@ p{
     margin: 0;
     line-height: 1.5;
     color: $jasny-niebieski;
+
+    &__category{
+        color: blue;
+    }
 }
 
 a{
@@ -31,13 +35,28 @@ h3{
     font-size: 40px;
     color: $szary;
     margin: 10px 10px;
+    font-style: italic;
 }
 
 .p--bialy{
     font-weight: normal;
     line-height: 1.5;
     color: white;
-    max-width: 700px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 20px;
+}
+
+h4{
+    color: rgb(0, 250, 237);
+    font-size: 36px;
+    font-weight: 100;
+    padding: 10px 10px;
+    margin: 0;
+}
+
+h5{
+    font-size: 32px;
+    font-style: italic;
+    margin: 10px;
 }
