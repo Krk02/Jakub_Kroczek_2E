@@ -6,3 +6,17 @@
 .images{
     width: 100%;
 }
+
+.przycisk{
+    background: linear-gradient(180deg, #5B8AF8 0%, #3E5CC5 100%);
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 5px;
+    transition: all 0.3s;
+
+    &:hover{
+        color: white;
+        
+        
+    }
+}
