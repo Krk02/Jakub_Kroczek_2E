@@ -186,6 +186,8 @@ h5 {
   text-align: center;
   padding: 5px 5px;
   border-width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .przycisk:hover {
@@ -199,6 +201,8 @@ h5 {
   width: 85px;
   font-size: 12px;
   font-weight: 100;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .przycisk__form:hover {
