@@ -3,9 +3,14 @@ p{
     margin: 0;
     line-height: 1.5;
     color: $jasny-niebieski;
+    text-align: justify;
 
     &__category{
         color: blue;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        
     }
 }
 
@@ -45,6 +50,7 @@ h3{
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
+    text-align: justify;
 }
 
 h4{
@@ -56,7 +62,8 @@ h4{
 }
 
 h5{
-    font-size: 32px;
+    font-size: 24px;
+    color: $niebieski;
     font-style: italic;
     margin: 10px;
 }
